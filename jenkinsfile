@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                h 'echo "--> in deployment"' 
+                sh 'echo "--> in deployment"' 
                 sh 'echo "--> deployed"'
             }
         }
